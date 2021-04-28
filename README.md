@@ -2,13 +2,13 @@
 
 By Kuo-Hao Zeng, Luca Weihs, Ali Farhadi, and Roozbeh Mottaghi
 
-[Paper]() | [Video]() | [BibTex](#citing)
+[Paper](https://prior.allenai.org/assets/project-content/interactive-visual-navigation/interactive-visual-navigation.pdf) | [Video](https://www.youtube.com/watch?v=GvTI5XCMvPw) | [BibTex](#citation)
 
 ![](figs/interactive_visual_navigation.gif)
 
 In this paper, we study the problem of interactive navigation where agents learn to change the environment to navigate more efficiently to their goals. To this end, we introduce the Neural Interaction Engine (NIE) to explicitly predict the change in the environment caused by the agent's actions. By modeling the changes while planning, we find that agents exhibit significant improvements in their navigational capabilities.
 
-### Set Up
+### Installation
 
 0. Requirements
 
