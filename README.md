@@ -65,12 +65,12 @@ We currently provide the following pretrained models:
 
 |    ObsNav    |                            Model                             |
 | :----------: | :----------------------------------------------------------: |
-|     PPO      | [Link](https://homes.cs.washington.edu/~khzeng/Interactive_Visual_Navigation/ObsNav/rgbd_ppo/exp_ObstaclesNav-RGBD__stage_00__steps_000010001800.pt) |
-|     NIE      | [Link](https://homes.cs.washington.edu/~khzeng/Interactive_Visual_Navigation/ObsNav/rgbdk_vNIE/exp_ObstaclesNav-RGBDK-vNIE__stage_00__steps_000010000490.pt) |
+|     PPO      | [Link](https://prior-model-weights.s3.us-east-2.amazonaws.com/embodied-ai/IVN/ObsNav/rgbd_ppo/exp_ObstaclesNav-RGBD__stage_00__steps_000010001800.pt) |
+|     NIE      | [Link](https://prior-model-weights.s3.us-east-2.amazonaws.com/embodied-ai/IVN/ObsNav/rgbdk_vNIE/exp_ObstaclesNav-RGBDK-vNIE__stage_00__steps_000010000490.pt) |
 | **ObjPlace** |                                                              |
-|     PPO      | [Link](https://homes.cs.washington.edu/~khzeng/Interactive_Visual_Navigation/ObjPlace/rgbd_ppo/exp_Placement-RGBD__stage_00__steps_000010001360.pt) |
-|     NIE      | [Link](https://homes.cs.washington.edu/~khzeng/Interactive_Visual_Navigation/ObjPlace/rgbdk_vNIE/exp_Placement-RGBDK_vNIE__stage_00__steps_000010001820.pt) |
-| **MaskRCNN** | [Link](https://homes.cs.washington.edu/~khzeng/Interactive_Visual_Navigation/maskRCNN/model.pth) |
+|     PPO      | [Link](https://prior-model-weights.s3.us-east-2.amazonaws.com/embodied-ai/IVN/ObjPlace/rgbd_ppo/exp_Placement-RGBD__stage_00__steps_000010001360.pt) |
+|     NIE      | [Link](https://prior-model-weights.s3.us-east-2.amazonaws.com/embodied-ai/IVN/ObjPlace/rgbdk_vNIE/exp_Placement-RGBDK-vNIE__stage_00__steps_000010001820.pt) |
+| **MaskRCNN** | [Link](https://prior-model-weights.s3.us-east-2.amazonaws.com/embodied-ai/IVN/maskRCNN/model.pth) |
 
 These models can be downloaded from the above links and should be placed into the `pretrained_model_ckpts`directory. You can then, for example, run inference for the `NIE` model on **ObsNav** using AllenAct by running:
 
